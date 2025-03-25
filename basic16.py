@@ -18,5 +18,11 @@ for arr in zip(sample, sample2):
 
 count = 0
 while count < 10:
-    print(count)
     count += 1
+    if count == 3:
+        continue
+    else:
+        print(count)
+    if count == 8:
+        break
+
